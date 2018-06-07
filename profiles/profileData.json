@@ -1,0 +1,19 @@
+{
+ "183587420153839626": {
+  "money": 0,
+  "xp": 0,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "viki profile edit (your text here)",
+  "lastMessage": 1528317855085,
+  "lastReward": 0,
+  "tempRole": {
+   "Ice": 1528311392213
+  }
+ }
+}

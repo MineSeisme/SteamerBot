@@ -1,0 +1,93 @@
+{
+  "prefix": "Steamou",
+  "welcomeChannel":"général",
+  "incidentChannel":"incidents",
+  "inLog":"in",
+  "outLog":"out",
+  "banLog":"ban",
+
+  "color1": "#b70000",
+  "color2": "#ffcf35",
+  "color3": "#35ffa4",
+
+  "autoRole":"",
+
+  "commandesRetardées":[
+    
+  ],
+
+  "hiddenCmds":[
+    "clear",
+    "emoji_id"
+  ],
+
+  "tempRoles":[
+    {"name":"Fire", "duration": 24},
+    {"name":"Ice", "duration": 24}
+  ],
+
+  "shopRoles":[
+    "Fire",
+    "Ice"
+  ],
+  
+  "shopCommandes":[
+    "kill",
+    "dis"
+  ],
+
+  "shopItems":{
+
+    "roles":[
+      {"name":"Fire","description":"Un role enflammé!","price":1000,"lvlReq":5,"props":{"role":"Fire","temp":false}},
+      {"name":"Fire_location","description":"Un role enflammé pour 24 heures!","price":100000,"lvlReq":10,"props":{"role":"Fire","temp":true}},
+      {"name":"Ice","description":"Un role glacial!","price":1000,"lvlReq":4,"props":{"role":"Ice","temp":false}},
+      {"name":"Ice_location","description":"Un role glacial pour 24 heures!","price":100000,"lvlReq":9,"props":{"role":"Ice","temp":true}}
+    ],
+
+    "commandes":[
+      {"name":"dis","description":"SteamerBot va repeter ce tu dis!","price":10000,"lvlReq":2},
+      {"name":"kill","description":"Tuez quelqu'un sur le serveur avec cette commande mortelle!","price":20000,"lvlReq":3}
+    ],
+
+    "misc":[
+   
+    ]
+  },
+
+  "currency":"<:SteamCoin:415883976339619845>",
+  "bonusEmoji":"<:kappa:413409792472907777>",
+
+  "startMoney": 1000,
+
+  "payAmount": 100,
+  "payDelay": 180,
+
+  "minGive":100,
+
+  "coinMin":100,
+
+  "slotMin": 100,
+
+  "slotFac1": 101,
+  "slotFac2": 26,
+  "slotFac3": 11,
+  "slotFac4": 7,
+  "slotFac5": 1,
+
+  "slotEmojis":[ 
+    "<:kappa:413409792472907777>",
+    "<:YoLesSteamers:413410197130969100>",
+    "<:content:413411086885322762>",
+    "<:AH:413755721973497859>",
+    "<:Steamou:413409370219741194>"
+  ],
+
+  "xpExclude":[
+    "spam"
+  ],
+
+  "excuses":[
+    {"delai":1 , "texte":"Une seconde, j'arrive!"}
+  ]
+}
