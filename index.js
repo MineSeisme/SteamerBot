@@ -1,4 +1,4 @@
-const tokenfile = process.env.token
+const tokenfile = process.env.SECRET;
 const config = require("./config.json");
 const profile = require('./profiles/profileData.json');
 
@@ -61,9 +61,9 @@ fs.readdir("./color_Roles", (err, files) => {
 
 bot.on("ready", async () => {
     console.log(`${bot.user.username} activé sur ${bot.guilds.size} serveur!`);
-    bot.user.setActivity("dans l'univers", { type: "WATCHING" });
+    bot.user.setActivity(`${prefix}_help`, { type: "PLAYING" });
 });
-
+33
 
 bot.on("guildMemberAdd", member => {
 
@@ -80,9 +80,8 @@ bot.on("guildMemberAdd", member => {
     member.addRole(role);
 
     if(!member.guild.channels.find('name', config.welcomeChannel)) return;
-    member.guild.channels.find('name', config.welcomeChannel).send(`Bonjour ${member.user.username}. Je te souhaite le bienvenue sur le serveur, 
-je me présente, je m'appelle ${bot.user.username} utilise moi avec la commande "**${prefix} help**"
-tu va voir je sais faire pas mal de choses.`)
+    member.guild.channels.find('name', config.welcomeChannel).send(`Bienvenue ${member.user.username}. Je te souhaite le bienvenue sur le serveur, 
+je me présente, je m'appelle ${bot.user.username} utilise moi avec la commande "**${prefix} help**"`);
     console.log(`Ajout du Grade ${config.autoRole} à ${member.user.username}`)
 
 });
@@ -246,4 +245,4 @@ bot.on("message", async message => {
 })
 
 
-bot.login(tokenfile.token);
+bot.login(process.env.SECRET);

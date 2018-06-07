@@ -1,7 +1,6 @@
 {
-  "prefix": "Steamou",
+  "prefix": "steamou",
   "welcomeChannel":"général",
-  "incidentChannel":"incidents",
   "inLog":"in",
   "outLog":"out",
   "banLog":"ban",
