@@ -1,7 +1,28 @@
 {
  "183587420153839626": {
   "money": 1000,
-  "xp": 1,
+  "xp": 6,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [
+    "Fire",
+    "Ice"
+   ],
+   "commandes": [
+    "dis",
+    "kill"
+   ],
+   "misc": []
+  },
+  "description": "AsciiDoc\n\nPseudo: Pixelisator\n====================\n//Prénom:: (pas envie de le donner)\nâge::\n`19 ans'\nPassions::\n``Jeux videos, musique, code (travailler en javascript sur **SteamerBot**), m'amuser avec le markdown AsciiDoc (lol) et dessiner par moment''\nComment as tu connu PARADOX ::\n`blblblbblbl Clideon'\nTa vidéo/ thème préféré sur PARADOX ::\n``aucune en particulier elles sont toutes sympa à regarder ^^''\nNOTE: oui, j'aime bien m'amuser avec le markdown x)",
+  "lastMessage": 1528376655198,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "438400502628352003": {
+  "money": 1000,
+  "xp": 0,
   "level": 0,
   "next": 10,
   "inventory": {
@@ -9,9 +30,27 @@
    "commandes": [],
    "misc": []
   },
-  "description": "AsciiDoc\nPseudo: Pixelisator\n====================\n//Prénom:: (pas envie de le donner)\nâge::\n19 ans'\nPassions::\n``Jeux videos, musique, code (travailler en javascript sur **SteamerBot**), m'amuser avec le markdown AsciiDoc (lol) et dessiner par moment''\nComment as tu connu PARADOX ::\nblblblbblbl Clideon'\nTa vidéo/ thème préféré sur PARADOX ::\n``aucune en particulier elles sont toutes sympa à regarder ^^''\nNOTE: oui, j'aime bien m'amuser avec le markdown x)",
-  "lastMessage": 1528373387074,
+  "description": "steamer profile edit (your text here)",
+  "lastMessage": 0,
   "lastReward": 0,
   "tempRole": {}
+ },
+ "454260027046363136": {
+  "money": 1000,
+  "xp": 0,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 0,
+  "lastReward": 0,
+  "tempRole": {
+   "Fire": 1528375319803,
+   "Ice": 1528375323082
+  }
  }
 }

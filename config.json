@@ -1,6 +1,7 @@
 {
   "prefix": "steamou",
   "welcomeChannel":"général",
+  "rulesChannel":"regles",
   "inLog":"in",
   "outLog":"out",
   "banLog":"ban",

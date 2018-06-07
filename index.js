@@ -1,4 +1,3 @@
-const tokenfile = process.env.SECRET;
 const config = require("./config.json");
 const profile = require('./profiles/profileData.json');
 
@@ -10,6 +9,16 @@ const fs = require("fs");
 const prefix = config.prefix;
 
 const bot = new Discord.Client();
+
+const http = require('http');
+const express = require('express');
+const app = express();
+app.get("/", (request, response) => response.sendStatus(200));
+app.listen(process.env.PORT);
+setInterval(() => {
+  http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
+}, 280000);
+
 bot.commands = new Discord.Collection();
 bot.col = new Discord.Collection();
 
@@ -66,6 +75,7 @@ bot.on("ready", async () => {
 33
 
 bot.on("guildMemberAdd", member => {
+  
 
     if(member.guild.channels.find('name',config.inLog)){
         let embed = new Discord.RichEmbed()
@@ -74,14 +84,14 @@ bot.on("guildMemberAdd", member => {
         member.guild.channels.find('name',config.inLog).send(embed);
     };
 
-    let role = member.guild.roles.find("name", config.autoRole);
-
-    if(!role) return;
-    member.addRole(role);
-
     if(!member.guild.channels.find('name', config.welcomeChannel)) return;
-    member.guild.channels.find('name', config.welcomeChannel).send(`Bienvenue ${member.user.username}. Je te souhaite le bienvenue sur le serveur, 
-je me présente, je m'appelle ${bot.user.username} utilise moi avec la commande "**${prefix} help**"`);
+  
+    member.guild.channels.find('name', config.welcomeChannel).send(`Bienvenue ${member.user}! Je me présente, je m\'appelle ${bot.user}! Pense à lire <#${member.guild.channels.find('name',config.rulesChannel).id}>, c'est important si tu veux éviter te te faire ban bêtement!`);
+  
+  let role = member.guild.roles.find("name", config.autoRole);
+  
+  if(!role) return;
+    member.addRole(role);
     console.log(`Ajout du Grade ${config.autoRole} à ${member.user.username}`)
 
 });
@@ -245,4 +255,4 @@ bot.on("message", async message => {
 })
 
 
-bot.login(process.env.SECRET);
+bot.login(process.env.TOKEN);

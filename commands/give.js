@@ -48,13 +48,13 @@ module.exports.run = async (bot, message, args) => {
     
     message.channel.send(`${rMemberA} a donné ${amount}${config.currency} à ${rMemberB}`)
     let cashDispA = new Discord.RichEmbed()
-    .setDescription(`${rMemberA}\'s account`)
+    .setTitle(`${rMemberA.username}\'s account`)
     .setColor(config.color3)
     .setThumbnail(rMemberA.avatarURL)
     .addField("money:(old)",`\`${profile[rMemberA.id].money}\`${config.currency}`)
    
     let cashDispB = new Discord.RichEmbed()
-    .setDescription(`${rMemberB}\'s account`)
+    .setTitle(`${rMemberB.username}\'s account`)
     .setColor(config.color3)
     .setThumbnail(rMemberB.avatarURL)
     .addField("money:(old)",`\`${profile[rMemberB.id].money}\`${config.currency}`)
