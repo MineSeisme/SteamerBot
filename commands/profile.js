@@ -5,6 +5,19 @@ const fs = require('fs');
 
 const prefix = config.prefix;
 
+String.prototype.replaceAll = function(searchStr, replaceStr) {
+	var str = this;
+
+    // no match exists in string?
+    if(str.indexOf(searchStr) === -1) {
+        // return string
+        return str;
+    }
+
+    // replace and remove first match, and do another recursirve search/replace
+    return (str.replace(searchStr, replaceStr)).replaceAll(searchStr, replaceStr);
+}
+
 module.exports.run = async (bot, message, args) => {
 
     let rMember =  message.guild.member(message.mentions.users.first()) || message.author;
@@ -35,7 +48,7 @@ module.exports.run = async (bot, message, args) => {
 
         if(args[0] == "edit"){
             console.log(content);
-            profile[rMember.id].description = content.replace("\\n","\n");
+            profile[rMember.id].description = `AsciiDoc\n${content.replaceAll("\\n","\n")}`;
         }; 
         
         fs.writeFile("./profiles/profileData.json", JSON.stringify(profile, null, 1), (err) =>{
@@ -44,7 +57,7 @@ module.exports.run = async (bot, message, args) => {
     };
 
     let profileDisp = new Discord.RichEmbed()
-     .setTitle(`${rMember}\'s profile`)
+     .setTitle(`${rMember.username}\'s profile`)
      .setColor(config.color3)
      .setThumbnail(rMember.avatarURL)
      .addField("level:",`\`${profile[rMember.id].level} ( ${profile[rMember.id].xp} / ${profile[rMember.id].next} xp )\``)

@@ -28,7 +28,7 @@ module.exports.run = async (bot, message, args) => {
         });
     };
     let cashDisp = new Discord.RichEmbed()
-     .setDescription(`${rMember}\'s account`)
+     .setTitle(`${rMember.username}\'s account`)
      .setColor(config.color3)
      .setThumbnail(rMember.avatarURL)
      .addField("money: ",`\`${profile[rMember.id].money}\`${config.currency}`)

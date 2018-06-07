@@ -1,7 +1,7 @@
 {
  "183587420153839626": {
-  "money": 0,
-  "xp": 0,
+  "money": 1000,
+  "xp": 1,
   "level": 0,
   "next": 10,
   "inventory": {
@@ -9,11 +9,9 @@
    "commandes": [],
    "misc": []
   },
-  "description": "viki profile edit (your text here)",
-  "lastMessage": 1528317855085,
+  "description": "AsciiDoc\nPseudo: Pixelisator\n====================\n//Prénom:: (pas envie de le donner)\nâge::\n19 ans'\nPassions::\n``Jeux videos, musique, code (travailler en javascript sur **SteamerBot**), m'amuser avec le markdown AsciiDoc (lol) et dessiner par moment''\nComment as tu connu PARADOX ::\nblblblbblbl Clideon'\nTa vidéo/ thème préféré sur PARADOX ::\n``aucune en particulier elles sont toutes sympa à regarder ^^''\nNOTE: oui, j'aime bien m'amuser avec le markdown x)",
+  "lastMessage": 1528373387074,
   "lastReward": 0,
-  "tempRole": {
-   "Ice": 1528311392213
-  }
+  "tempRole": {}
  }
 }
