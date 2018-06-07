@@ -5,7 +5,8 @@ const fs = require('fs');
 
 module.exports.run = (message, item) => {
 
-    rMember = message.author;
+    let rMember = message.author;
+  
     if(!message.guild.roles.find('name',item.props.role)) return message.channel.send("Désolé mais ce role est actuellement indisponible sur ce serveur! :(");
 
     if(message.guild.members.get(rMember.id).roles.has(message.guild.roles.find('name', item.props.role).id) && item.props.temp == true)

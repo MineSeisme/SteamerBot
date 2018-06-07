@@ -11,12 +11,17 @@ module.exports.hslToDec = (H,S,L) =>{
     return 0;
    }
 
-    var H0 = H/60
+  var H0 = H/60
     
-    var C = (1 - Math.abs((2 * L) - 1)) * S;
-    var X = C * (1 - Math.abs(H0 % 2- 1));
-    var m = L - C / 2;
-    var R = R1 = G = G1 = B = B1 = 0;
+  var C = (1 - Math.abs((2 * L) - 1)) * S;
+  var X = C * (1 - Math.abs(H0 % 2- 1));
+  var m = L - C / 2;
+  var R = 0;
+  var R1 = 0;
+  var G = 0;
+  var G1 = 0;
+  var B = 0;
+  var B1 = 0;
  
     if (H0 < 1){     
         R1 = C;

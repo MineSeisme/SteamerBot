@@ -5,7 +5,7 @@ const fs = require('fs');
 
 module.exports.run = (message, item) => {
 
-    rMember = message.author;
+    let rMember = message.author;
 
     if(profile[rMember.id].inventory.commandes.includes(item.name.toLowerCase()))
     return message.channel.send(`Tu as déjà la commande \" ${config.prefix} ${item.name} \" dans ton inventaire!`);

@@ -19,7 +19,7 @@ const ProfilePreset = {
 
 module.exports.run = async (bot, message, args) => {
 
-    rMember = message.author;
+    let rMember = message.author;
 
     if(!profile[rMember.id]){
         profile[rMember.id] = ProfilePreset;
