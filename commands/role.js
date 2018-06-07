@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
     
     if(!args[0]) return message.channel.send(`veuillez entrer un nom de role à équiper ou déséquiper!`);
 
-    rMember = message.author;
+    let rMember = message.author;
 
     if(!profile[rMember.id]){
         profile[rMember.id] = {

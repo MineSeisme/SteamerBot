@@ -2,9 +2,9 @@
   "prefix": "steamou",
   "welcomeChannel":"général",
   "rulesChannel":"regles",
-  "inLog":"in",
-  "outLog":"out",
-  "banLog":"ban",
+  "inLog":"log",
+  "outLog":"log",
+  "banLog":"log",
 
   "color1": "#b70000",
   "color2": "#ffcf35",
@@ -84,7 +84,7 @@
   ],
 
   "xpExclude":[
-    "spam"
+    "spam-pub"
   ],
 
   "excuses":[

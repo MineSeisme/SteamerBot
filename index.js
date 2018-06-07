@@ -10,7 +10,7 @@ const prefix = config.prefix;
 
 const bot = new Discord.Client();
 
-const http = require('http');
+const http = require('http'); //keep the bot awake
 const express = require('express');
 const app = express();
 app.get("/", (request, response) => response.sendStatus(200));

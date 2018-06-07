@@ -1,9 +1,9 @@
 {
  "183587420153839626": {
-  "money": 1000,
-  "xp": 6,
-  "level": 2,
-  "next": 30,
+  "money": 0,
+  "xp": 3,
+  "level": 3,
+  "next": 40,
   "inventory": {
    "roles": [
     "Fire",
@@ -16,7 +16,7 @@
    "misc": []
   },
   "description": "AsciiDoc\n\nPseudo: Pixelisator\n====================\n//Prénom:: (pas envie de le donner)\nâge::\n`19 ans'\nPassions::\n``Jeux videos, musique, code (travailler en javascript sur **SteamerBot**), m'amuser avec le markdown AsciiDoc (lol) et dessiner par moment''\nComment as tu connu PARADOX ::\n`blblblbblbl Clideon'\nTa vidéo/ thème préféré sur PARADOX ::\n``aucune en particulier elles sont toutes sympa à regarder ^^''\nNOTE: oui, j'aime bien m'amuser avec le markdown x)",
-  "lastMessage": 1528376655198,
+  "lastMessage": 1528387982593,
   "lastReward": 0,
   "tempRole": {}
  },
@@ -53,4 +53,5 @@
    "Ice": 1528375323082
   }
  }
+}}
 }
