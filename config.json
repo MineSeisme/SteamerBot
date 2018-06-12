@@ -1,6 +1,7 @@
 {
+  "botUserId":"454260027046363136",
   "prefix": "steamou",
-  "welcomeChannel":"général",
+  "welcomeChannel":"general",
   "rulesChannel":"regles",
   "inLog":"log",
   "outLog":"log",
@@ -15,6 +16,15 @@
   "commandesRetardées":[
     
   ],
+  
+  "cmdDescription":{
+    "coin":"[steamcoins à parier]",
+    "slot":"[steamcoins à parier]",
+    "give":"[@user] [steamcoins à donner]",
+    "profile":"[vide, @user ou \"edit\"] [texte]",
+    "dis":"[texte]",
+    "role":"[nom du role à équiper]"
+  },
 
   "hiddenCmds":[
     "clear",
@@ -22,6 +32,7 @@
   ],
 
   "tempRoles":[
+    {"name":"U-Tipeur","duration":84},
     {"name":"Fire", "duration": 24},
     {"name":"Ice", "duration": 24}
   ],
@@ -39,15 +50,16 @@
   "shopItems":{
 
     "roles":[
-      {"name":"Fire","description":"Un role enflammé!","price":1000,"lvlReq":5,"props":{"role":"Fire","temp":false}},
-      {"name":"Fire_location","description":"Un role enflammé pour 24 heures!","price":100000,"lvlReq":10,"props":{"role":"Fire","temp":true}},
-      {"name":"Ice","description":"Un role glacial!","price":1000,"lvlReq":4,"props":{"role":"Ice","temp":false}},
-      {"name":"Ice_location","description":"Un role glacial pour 24 heures!","price":100000,"lvlReq":9,"props":{"role":"Ice","temp":true}}
+      {"name":"Fire_location","description":"Un role enflammé pour 24 heures!","price":100,"lvlReq":20,"props":{"role":"Fire","temp":true}},
+      {"name":"Ice_location","description":"Un role glacial pour 24 heures!","price":150,"lvlReq":30,"props":{"role":"Ice","temp":true}},
+      {"name":"Fire","description":"Un role enflammé!","price":5000,"lvlReq":40,"props":{"role":"Fire","temp":false}},
+      {"name":"Ice","description":"Un role glacial!","price":6000,"lvlReq":50,"props":{"role":"Ice","temp":false}}
     ],
 
     "commandes":[
-      {"name":"dis","description":"SteamerBot va repeter ce tu dis!","price":10000,"lvlReq":2},
-      {"name":"kill","description":"Tuez quelqu'un sur le serveur avec cette commande mortelle!","price":20000,"lvlReq":3}
+      {"name":"hug","description":"caliiiiin! :3","price":500,"lvlReq":5},
+      {"name":"dis","description":"SteamerBot va repeter ce tu dis!","price":1000,"lvlReq":10},
+      {"name":"kill","description":"Tuez quelqu'un sur le serveur avec cette commande mortelle!","price":2000,"lvlReq":20}
     ],
 
     "misc":[
@@ -58,16 +70,16 @@
   "currency":"<:SteamCoin:415883976339619845>",
   "bonusEmoji":"<:kappa:413409792472907777>",
 
-  "startMoney": 1000,
+  "startMoney": 10,
 
-  "payAmount": 100,
+  "payAmount": 5,
   "payDelay": 180,
 
-  "minGive":100,
+  "minGive":1,
 
-  "coinMin":100,
+  "coinMin":1,
 
-  "slotMin": 100,
+  "slotMin": 1,
 
   "slotFac1": 101,
   "slotFac2": 26,

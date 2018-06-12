@@ -10,24 +10,6 @@ module.exports.run = async (bot, message, args) => {
     let invEmbed = new Discord.RichEmbed()
     .setTitle(`**${rMember.username}'s inventory!**`);
 
-    if(!profile[rMember.id]){
-        profile[rMember.id] = {
-            money: config.startMoney,
-            xp: 0,
-            level: 0,
-            next: 10,
-            inventory:{roles:[],commandes:[],misc:[]},
-            description: `${config.prefix} profile edit (your text here)`,
-            lastMessage: 0,
-            lastReward: 0,
-            tempRole:{}
-        };
-
-        fs.writeFile("./profiles/profileData.json", JSON.stringify(profile, null, 1), (err) =>{
-            if (err) console.log(err);
-         })
-    };
-
     if(profile[rMember.id].inventory == {roles:[],commandes:[],misc:[]} ) return message.channel.send("Ton inventaire est vide! :(")
 
     if(profile[rMember.id].inventory.roles.length > 0){

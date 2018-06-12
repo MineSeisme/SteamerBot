@@ -25,6 +25,30 @@ bot.col = new Discord.Collection();
 let colData = {};
 let t = 0;
 
+console.log(config.botUserId);
+
+ if(!profile[config.botUserId]){
+            
+     console.log(`Compte cagnotte ${config.botUserId} activé!`);
+   
+            profile[config.botUserId] = {
+                money: 0,
+                xp: 0,
+                level: 666,
+                next: 1,
+                inventory:{roles:[],commandes:[],misc:[]},
+                description: `AsciiDoc\nBonjour je suis Steamou!\n=========================\nJe suis un bot créé par \`Pixelisator\' et inspiré par \`Steamou\' le chat de Paradox créé par \`Shimo\'!\n:miaou: :3`,
+                lastMessage: 0,
+                lastReward: 0,
+                tempRole:{}
+            };
+          
+        };
+    
+        fs.writeFile("./profiles/profileData.json", JSON.stringify(profile, null, 1), (err) =>{
+            if (err) console.log(err);
+         })
+
 fs.readdir("./commands", (err, files) => {
 
     if (err) console.log(err);
@@ -79,14 +103,14 @@ bot.on("guildMemberAdd", member => {
 
     if(member.guild.channels.find('name',config.inLog)){
         let embed = new Discord.RichEmbed()
-        .setDescription(`:arrow_right: ${member} est arrivé!`)
+        .setDescription(`:arrow_right: ${member.user.tag} est arrivé!`)
         .setColor('#5bf014');
         member.guild.channels.find('name',config.inLog).send(embed);
     };
 
     if(!member.guild.channels.find('name', config.welcomeChannel)) return;
   
-    member.guild.channels.find('name', config.welcomeChannel).send(`Bienvenue ${member.user}! Je me présente, je m\'appelle ${bot.user}! Pense à lire <#${member.guild.channels.find('name',config.rulesChannel).id}>, c'est important si tu veux éviter te te faire ban bêtement!`);
+    member.guild.channels.find('name', config.welcomeChannel).send(`Bienvenue ${member.user}! Je me présente, je m\'appelle ${bot.user}! Pense bien à lire les <#${member.guild.channels.find('name',config.rulesChannel).id}>, c'est important si tu veux éviter de te faire ban bêtement!`);
   
   let role = member.guild.roles.find("name", config.autoRole);
   
@@ -100,7 +124,7 @@ bot.on("guildMemberRemove", (member) =>{
 
     if(member.guild.channels.find('name',config.outLog)){
         let embed = new Discord.RichEmbed()
-        .setDescription(`:arrow_left: ${member} est parti!`)
+        .setDescription(`:arrow_left: ${member.user.tag} est parti!`)
         .setColor('#f0b314');
         member.guild.channels.find('name',config.outLog).send(embed);
     };
@@ -111,7 +135,7 @@ bot.on("guildBanAdd", (guild, user) =>{
 
     if(guild.channels.find('name',config.banLog)){
         let embed = new Discord.RichEmbed()
-        .setDescription(`:asterisk: ${user} s'est fait ban!`)
+        .setDescription(`:asterisk: ${user.tag}s'est fait ban!`)
         .setColor('#f01414');
         guild.channels.find('name',config.banLog).send(embed);
     };
@@ -123,9 +147,12 @@ bot.on("guildMemberUpdate", (oldMember, newMember) => {
     config.tempRoles.forEach((i) =>{
 
         if(!(!oldMember.roles.find(`name`, i.name) && newMember.roles.find(`name`, i.name)) )return;
-    
-        if(!profile[newMember.id]){
-            profile[newMember.id] = {
+        
+      console.log(`creation d'un profil pour ${newMember.user.username} avec l'id ${newMember.user.id}`);
+      
+        if(!profile[newMember.user.id]){
+          
+            profile[newMember.user.id] = {
                 money: config.startMoney,
                 xp: 0,
                 level: 0,
@@ -136,13 +163,15 @@ bot.on("guildMemberUpdate", (oldMember, newMember) => {
                 lastReward: 0,
                 tempRole:{}
             };
+          
         };
-    
-        profile[newMember.id].tempRole[i.name] = Date.now();
+        profile[newMember.user.id].tempRole[i.name] = Date.now();
+        console.log(profile[newMember.user.id]);
 
         fs.writeFile("./profiles/profileData.json", JSON.stringify(profile, null, 1), (err) =>{
             if (err) console.log(err);
          })
+      
         console.log(`${newMember.user.tag} a obtenu le role temporaire ${i.name} pour ${i.duration} heure(s)`);
 
     })
@@ -164,7 +193,11 @@ bot.on("message", async message => {
     let commandfile = bot.commands.get(cmd);
 
     if(!profile[message.author.id]){
-        profile[message.author.id] = {
+      
+      console.log(`creation d'un profil pour ${message.author.username} avec l'id ${message.author.id}`);
+        
+      profile[message.author.id] = {
+        
             money: config.startMoney,
             xp: 0,
             level: 0,
@@ -174,7 +207,12 @@ bot.on("message", async message => {
             lastMessage: 0,
             lastReward: 0,
             tempRole: {}
+        
         };
+      
+       fs.writeFile("./profiles/profileData.json", JSON.stringify(profile, null, 1), (err) =>{
+            if (err) console.log(err);
+        });
     };
 
     if(message.createdTimestamp - profile[message.author.id].lastMessage >= 3000 && !config.xpExclude.includes(message.channel.name) && message.content.length > 2){
@@ -226,33 +264,25 @@ bot.on("message", async message => {
 
         console.log(`La commande "${message.content}" a été exécutée par ${message.author.tag} dans le salon #${message.channel.name}`);
 
-    } else if (message.content.toLowerCase().startsWith(prefix)) {
-
-        message.channel.send("Cette commande n'existe pas!");
     };
     
     bot.col.forEach((colFile) => { //update role colors
         colData[colFile.help.name] = colFile.run(message, colFile.help.name , colData[colFile.help.name] , t);
     });
-    t = t + 1; 
+    t = t + 1;
 
-    let guildUser = message.guild.members.get(message.author.id);
-
-    config.tempRoles.forEach( (i) =>{ //remove temp role after duration expired
-
-        if(message.guild.roles.find('name', i.name)){
-
-            let tmpRole = message.guild.roles.find(`name`,i.name);
-
-            message.guild.roles.find('name', i.name).members.forEach( (rMember) =>{
-            
-             if(message.createdTimestamp - profile[rMember.id].tempRole[i.name] > i.duration * 3600000 && !profile[rMember.id].inventory.roles.includes(i.name)) guildUser.removeRole(tmpRole.id);
+  config.tempRoles.forEach( (tmpRole) => {
+   
+    if(!message.guild.roles.find('name',tmpRole.name)) return;
+    message.guild.roles.find('name',tmpRole.name).members.forEach( (member) => {
+      
+      if(!profile[member.user.id]) return;
+      if(!profile[member.user.id].tempRole[tmpRole.name]) return;
+      if(message.createdTimestamp - profile[member.user.id].tempRole[tmpRole.name] >= 3600000 * tmpRole.duration) member.removeRole(message.guild.roles.find('name',tmpRole.name));
     
-            });
-         };
-   });
+    });
+  });
    
 })
-
 
 bot.login(process.env.TOKEN);

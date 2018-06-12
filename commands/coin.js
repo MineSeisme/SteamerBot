@@ -10,20 +10,6 @@ module.exports.run = async (bot, message, args) => {
     
     let rMember = message.author;
 
-    if(!profile[rMember.id]){
-        profile[rMember.id] = {
-            money: config.startMoney,
-            xp: 0,
-            level: 0,
-            next: 10,
-            inventory:{roles:[],commandes:[],misc:[]},
-            description: `${config.prefix} profile edit (your text here)`,
-            lastMessage: 0,
-            lastReward: 0,
-            tempRole: {}
-        };    
-    };
-
     var money = args[0];
 
     if(isNaN(money)) return message.channel.send("Tu dois entrer un nombre valide");
@@ -34,9 +20,9 @@ module.exports.run = async (bot, message, args) => {
    
     if(money < config.coinMin) return message.channel.send(`Tu dois parier au minimun 100${config.currency}`);
           
-      randnum = Math.random();
-      var coin = new Discord.RichEmbed()
-      if(randnum > 0.5){
+      let randnum = Math.random();
+      let coin = new Discord.RichEmbed()
+      if(randnum >= 0.5){
 
           coin.setColor('0x0000ff');
           coin.addField("Coin",`Tu as gagné ${money}${config.currency}`);
@@ -44,9 +30,13 @@ module.exports.run = async (bot, message, args) => {
           money = Math.round(money * 1);
 
       }else{
+        
           coin.setColor('0xff0000');
           coin.addField("Coin:",`Tu as perdu ${money}${config.currency}`);
-
+        
+          profile[config.botUserId].money = profile[config.botUserId].money + Math.round(money * 1);
+          console.log(profile[config.botUserId]);
+          
           money = Math.round(money * -1);
 
       }

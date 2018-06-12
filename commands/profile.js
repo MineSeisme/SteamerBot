@@ -20,8 +20,28 @@ String.prototype.replaceAll = function(searchStr, replaceStr) {
 
 module.exports.run = async (bot, message, args) => {
 
-    let rMember =  message.guild.member(message.mentions.users.first()) || message.author;
+    let rMember =  message.mentions.users.first()|| message.author;
     let content = args.slice(1).join(" ");
+  console.log( rMember.id );
+  
+  if(!profile[rMember.id]){
+      
+      console.log(`creation d'un profil pour ${message.author.username} avec l'id ${message.author.id}`);
+        
+      profile[rMember.id] = {
+        
+            money: config.startMoney,
+            xp: 0,
+            level: 0,
+            next: 10,
+            inventory:{roles:[],commandes:[],misc:[]},
+            description: `${config.prefix} profile edit (your text here)`,
+            lastMessage: 0,
+            lastReward: 0,
+            tempRole: {}
+        
+        };
+    };
     
     if(args[0]) args[0] = args[0].toLowerCase();
 
@@ -31,24 +51,10 @@ module.exports.run = async (bot, message, args) => {
     rMember = message.author;
     if(!profile[rMember.id] || args[0] == "edit"){
 
-        if(!profile[rMember.id]){
-
-            profile[rMember.id] = {
-                money: config.startMoney,
-                xp: 0,
-                level: 0,
-                next: 10,
-                inventory:{roles:[],commandes:[],misc:[]},
-                description: `${config.prefix} profile edit (your text here)`,
-                lastMessage: 0,
-                lastReward: 0,
-                tempRole: {}
-            };
-        };
-
         if(args[0] == "edit"){
             console.log(content);
-            profile[rMember.id].description = `AsciiDoc\n${content.replaceAll("\\n","\n")}`;
+          if(`AsciiDoc\n${content.replaceAll("\\n","\n")}`.lenght > 1000) return message.channel.send("Ta description doit contenir moins de 1000 charactères!");
+            profile[rMember.id].description = `AsciiDoc\n${content.replaceAll("\\n","\n")}`
         }; 
         
         fs.writeFile("./profiles/profileData.json", JSON.stringify(profile, null, 1), (err) =>{
