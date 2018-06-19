@@ -22,6 +22,7 @@ setInterval(() => {
 bot.commands = new Discord.Collection();
 bot.col = new Discord.Collection();
 
+let last = 0;
 let colData = {};
 let t = 0;
 
@@ -280,13 +281,13 @@ bot.on("message", async message => {
         console.log(`La commande "${message.content}" a été exécutée par ${message.author.tag} dans le salon #${message.channel.name}`);
 
     };
-    
+    if(message.CreatedTimestamp - last >= 10 * 60000){
     bot.col.forEach((colFile) => { //update role colors
         colData[colFile.help.name] = colFile.run(message, colFile.help.name , colData[colFile.help.name] , t);
     });
     t = t + 1;
-
-  config.tempRoles.forEach( (tmpRole) => {
+    };
+    config.tempRoles.forEach( (tmpRole) => {
    
     if(!message.guild.roles.find('name',tmpRole.name)) return;
     message.guild.roles.find('name',tmpRole.name).members.forEach( (member) => {
@@ -308,7 +309,7 @@ bot.on("message", async message => {
             
     });
   });
-   
+  last = message.createdTimestamp();
 })
 
 bot.login(process.env.TOKEN);
