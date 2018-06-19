@@ -92,7 +92,7 @@ fs.readdir("./color_Roles", (err, files) => {
     });
     console.log('\n');
 });
-/*
+
 bot.on("ready", async () => {
     console.log(`${bot.user.username} activé sur ${bot.guilds.size} serveur!`);
     bot.user.setActivity(`${prefix}_help`, { type: "PLAYING" });
@@ -310,5 +310,5 @@ bot.on("message", async message => {
   });
    
 })
-*/
+
 bot.login(process.env.TOKEN);
