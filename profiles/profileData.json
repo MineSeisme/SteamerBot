@@ -1,27 +1,652 @@
 {
- "183587420153839626": {
-  "money": 0,
-  "xp": 3,
-  "level": 3,
-  "next": 40,
+ "454260027046363136": {
+  "money": 13813,
+  "xp": 0,
+  "level": 666,
+  "next": 1,
   "inventory": {
-   "roles": [
-    "Fire",
-    "Ice"
-   ],
-   "commandes": [
-    "dis",
-    "kill"
-   ],
+   "roles": [],
+   "commandes": [],
    "misc": []
   },
-  "description": "AsciiDoc\n\nPseudo: Pixelisator\n====================\n//Prénom:: (pas envie de le donner)\nâge::\n`19 ans'\nPassions::\n``Jeux videos, musique, code (travailler en javascript sur **SteamerBot**), m'amuser avec le markdown AsciiDoc (lol) et dessiner par moment''\nComment as tu connu PARADOX ::\n`blblblbblbl Clideon'\nTa vidéo/ thème préféré sur PARADOX ::\n``aucune en particulier elles sont toutes sympa à regarder ^^''\nNOTE: oui, j'aime bien m'amuser avec le markdown x)",
-  "lastMessage": 1528387982593,
+  "description": "AsciiDoc\nBonjour je suis Steamou!\n=========================\nJe suis un bot créé par `Pixelisator' et inspiré par `Steamou' le chat de Paradox créé par `Shimo'!\n:miaou: :3",
+  "lastMessage": 0,
   "lastReward": 0,
   "tempRole": {}
  },
- "438400502628352003": {
-  "money": 1000,
+ "183587420153839626": {
+  "money": 10,
+  "xp": 23,
+  "level": 7,
+  "next": 80,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529429994824,
+  "lastReward": 0,
+  "tempRole": {
+   "Avertissement": 1529429958292
+  }
+ },
+ "229528978623430656": {
+  "money": 25,
+  "xp": 103,
+  "level": 20,
+  "next": 210,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529429996474,
+  "lastReward": 1529143314291,
+  "tempRole": {}
+ },
+ "422487726080786433": {
+  "money": 19,
+  "xp": 18,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529272077451,
+  "lastReward": 1529169741174,
+  "tempRole": {}
+ },
+ "182241070141276160": {
+  "money": 66,
+  "xp": 18,
+  "level": 13,
+  "next": 140,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "AsciiDoc\nMeilleur modo après Renako 💦",
+  "lastMessage": 1529429735934,
+  "lastReward": 1529427176229,
+  "tempRole": {}
+ },
+ "397163737615826944": {
+  "money": 0,
+  "xp": 13,
+  "level": 4,
+  "next": 50,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "AsciiDoc\n« Un deux prend ma b*te et fais un noeud »",
+  "lastMessage": 1529354006340,
+  "lastReward": 1529353758080,
+  "tempRole": {}
+ },
+ "443567197269262337": {
+  "money": 26,
+  "xp": 201,
+  "level": 20,
+  "next": 210,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529429575023,
+  "lastReward": 1529241669032,
+  "tempRole": {}
+ },
+ "270319868283322369": {
+  "money": 0,
+  "xp": 88,
+  "level": 9,
+  "next": 100,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529423447109,
+  "lastReward": 1529131784694,
+  "tempRole": {}
+ },
+ "328556749160316928": {
+  "money": 4,
+  "xp": 121,
+  "level": 18,
+  "next": 190,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "AsciiDoc\nJe suis un parieur compulsif et je risque de tuer ce gidkdbgi de chat pour l'argent qu'il m'a fait perdre",
+  "lastMessage": 1529428280794,
+  "lastReward": 1529410249871,
+  "tempRole": {
+   "U-Tipeur": 1529237072743
+  }
+ },
+ "203122499288825856": {
+  "money": 32,
+  "xp": 129,
+  "level": 23,
+  "next": 240,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529429918047,
+  "lastReward": 1529410050300,
+  "tempRole": {}
+ },
+ "353889598599987200": {
+  "money": 13,
+  "xp": 45,
+  "level": 14,
+  "next": 150,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529425871789,
+  "lastReward": 1529423318060,
+  "tempRole": {}
+ },
+ "294148268546326529": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529071078324,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "156051290789511168": {
+  "money": 8,
+  "xp": 13,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529309591818,
+  "lastReward": 0,
+  "tempRole": {
+   "U-Tipeur": 1529309796979
+  }
+ },
+ "358983470472495105": {
+  "money": 10,
+  "xp": 9,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529263589406,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "241683015267385344": {
+  "money": 10,
+  "xp": 74,
+  "level": 11,
+  "next": 120,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529429552448,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "289024701995417601": {
+  "money": 10,
+  "xp": 28,
+  "level": 6,
+  "next": 70,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529416024448,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "212659364836802560": {
+  "money": 10,
+  "xp": 2,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529366950555,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "175697859302129664": {
+  "money": 10,
+  "xp": 6,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529173038887,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "168075848388313088": {
+  "money": 80,
+  "xp": 12,
+  "level": 8,
+  "next": 90,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529426785184,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "279424378242990081": {
+  "money": 10,
+  "xp": 14,
+  "level": 7,
+  "next": 80,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529418894378,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "345555486914904076": {
+  "money": 10,
+  "xp": 8,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529273349970,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "381516189014294538": {
+  "money": 10,
+  "xp": 5,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529317784832,
+  "lastReward": 0,
+  "tempRole": {
+   "U-Tipeur": 1529318029933
+  }
+ },
+ "352037158791675907": {
+  "money": 15,
+  "xp": 1,
+  "level": 13,
+  "next": 140,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529343013308,
+  "lastReward": 1529303792555,
+  "tempRole": {
+   "U-Tipeur": 1529265940328
+  }
+ },
+ "204314034147819520": {
+  "money": 10,
+  "xp": 15,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529419366335,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "367360711980220418": {
+  "money": 10,
+  "xp": 9,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529429388372,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "176038776001265664": {
+  "money": 10,
+  "xp": 26,
+  "level": 5,
+  "next": 60,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529428402972,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "269946374206783488": {
+  "money": 10,
+  "xp": 101,
+  "level": 10,
+  "next": 110,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529429185513,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "327161770873716737": {
+  "money": 10,
+  "xp": 6,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529322992233,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "456950897356832768": {
+  "money": 50,
+  "xp": 20,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529427406138,
+  "lastReward": 1529426995977,
+  "tempRole": {
+   "U-Tipeur": 1529241555423
+  }
+ },
+ "194749315317628928": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529080344402,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "451412947231571970": {
+  "money": 10,
+  "xp": 0,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529405215051,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "260820294883737602": {
+  "money": 10,
+  "xp": 38,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529257697903,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "454740095468306432": {
+  "money": 10,
+  "xp": 22,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529333350130,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "290211168914505729": {
+  "money": 0,
+  "xp": 9,
+  "level": 11,
+  "next": 120,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529247754410,
+  "lastReward": 1529094225266,
+  "tempRole": {}
+ },
+ "199415366361808896": {
+  "money": 10,
+  "xp": 65,
+  "level": 9,
+  "next": 100,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529426656099,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "290533270402367489": {
+  "money": 28,
+  "xp": 67,
+  "level": 6,
+  "next": 70,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529430126208,
+  "lastReward": 1529169685873,
+  "tempRole": {
+   "U-Tipeur": 1529239416532
+  }
+ },
+ "374173165540212740": {
+  "money": 10,
+  "xp": 41,
+  "level": 8,
+  "next": 90,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529401814197,
+  "lastReward": 0,
+  "tempRole": {
+   "U-Tipeur": 1529363114978
+  }
+ },
+ "413261404578119695": {
+  "money": 10,
+  "xp": 4,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529083424557,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "221999558803193857": {
+  "money": 10,
+  "xp": 29,
+  "level": 5,
+  "next": 60,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529425284972,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "332288456686305281": {
+  "money": 10,
+  "xp": 25,
+  "level": 4,
+  "next": 50,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529399341106,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "401483128465784843": {
+  "money": 10,
+  "xp": 13,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529237032126,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "257284496766926850": {
+  "money": 10,
+  "xp": 3,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529146751254,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "348021036312297473": {
+  "money": 10,
   "xp": 0,
   "level": 0,
   "next": 10,
@@ -30,13 +655,1552 @@
    "commandes": [],
    "misc": []
   },
-  "description": "steamer profile edit (your text here)",
+  "description": "steamou profile edit (your text here)",
   "lastMessage": 0,
   "lastReward": 0,
   "tempRole": {}
  },
- "454260027046363136": {
-  "money": 1000,
+ "261483966542905345": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529086981511,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "419923174596018179": {
+  "money": 10,
+  "xp": 16,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529250741992,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "304314721748779008": {
+  "money": 10,
+  "xp": 0,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529245694020,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "342778458755301376": {
+  "money": 10,
+  "xp": 25,
+  "level": 9,
+  "next": 100,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529426588497,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "247091740396355584": {
+  "money": 10,
+  "xp": 27,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529400697381,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "104205979628892160": {
+  "money": 10,
+  "xp": 5,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529111552686,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "401782851709698058": {
+  "money": 10,
+  "xp": 2,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529269090055,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "366523466033135628": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529093780671,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "379256117538062337": {
+  "money": 10,
+  "xp": 8,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529254739732,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "417354236599205889": {
+  "money": 15,
+  "xp": 0,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529298372183,
+  "lastReward": 1529187813419,
+  "tempRole": {}
+ },
+ "381921974181691404": {
+  "money": 10,
+  "xp": 3,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529245207098,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "449306100504985630": {
+  "money": 10,
+  "xp": 4,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529095976447,
+  "lastReward": 1529095890057,
+  "tempRole": {}
+ },
+ "392069274459701250": {
+  "money": 0,
+  "xp": 4,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529357992257,
+  "lastReward": 1529095881901,
+  "tempRole": {}
+ },
+ "344246890591944775": {
+  "money": 10,
+  "xp": 3,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529098986457,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "443496883613204481": {
+  "money": 10,
+  "xp": 18,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529340034162,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "448079780814913546": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529412825270,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "309064444141633537": {
+  "money": 10,
+  "xp": 4,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529344764020,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "257096146441338880": {
+  "money": 10,
+  "xp": 13,
+  "level": 7,
+  "next": 80,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529370606182,
+  "lastReward": 0,
+  "tempRole": {
+   "U-Tipeur": 1529354091506
+  }
+ },
+ "417607084595740673": {
+  "money": 10,
+  "xp": 15,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529343887233,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "311144056090787841": {
+  "money": 91,
+  "xp": 2,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529262706006,
+  "lastReward": 1529262528161,
+  "tempRole": {
+   "U-Tipeur": 1529236443081
+  }
+ },
+ "443470281655451648": {
+  "money": 10,
+  "xp": 15,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529130474325,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "344881852680634368": {
+  "money": 10,
+  "xp": 17,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529132979895,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "309022354648989698": {
+  "money": 18,
+  "xp": 6,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529237912066,
+  "lastReward": 1529132509718,
+  "tempRole": {
+   "U-Tipeur": 1529237895454
+  }
+ },
+ "220190159889629185": {
+  "money": 10,
+  "xp": 14,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529355830996,
+  "lastReward": 0,
+  "tempRole": {
+   "U-Tipeur": 1529341160258
+  }
+ },
+ "388772461623115776": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529134275448,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "353845949656727564": {
+  "money": 10,
+  "xp": 4,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529264358406,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "354695537594859538": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529134445266,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "424266527727026178": {
+  "money": 10,
+  "xp": 6,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529137609735,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "390489851880800257": {
+  "money": 5,
+  "xp": 10,
+  "level": 8,
+  "next": 90,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "AsciiDoc\nHÉROS DU TEMPS À PLEIN TEMPS JIPÉPÉ ÉMDÉAIRE LAUL ._.",
+  "lastMessage": 1529364609877,
+  "lastReward": 1529338607341,
+  "tempRole": {
+   "U-Tipeur": 1529260238869
+  }
+ },
+ "257910280808300546": {
+  "money": 5,
+  "xp": 0,
+  "level": 6,
+  "next": 70,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "AsciiDoc\nje speedrun botw en 50 h c bi1 ?",
+  "lastMessage": 1529300514391,
+  "lastReward": 1529300505431,
+  "tempRole": {}
+ },
+ "240850328180883457": {
+  "money": 11,
+  "xp": 9,
+  "level": 20,
+  "next": 210,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529427911402,
+  "lastReward": 1529421579605,
+  "tempRole": {}
+ },
+ "394170172908371988": {
+  "money": 10,
+  "xp": 5,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529339963951,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "395892025142018052": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529143607871,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "201410291769016321": {
+  "money": 0,
+  "xp": 26,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529170042734,
+  "lastReward": 1529169665325,
+  "tempRole": {}
+ },
+ "175934276812931072": {
+  "money": 10,
+  "xp": 14,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529420619177,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "331725091543187467": {
+  "money": 10,
+  "xp": 7,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529146960748,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "415128917460910084": {
+  "money": 10,
+  "xp": 10,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529353529771,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "387688480844808193": {
+  "money": 10,
+  "xp": 15,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529257263088,
+  "lastReward": 0,
+  "tempRole": {
+   "U-Tipeur": 1529257236507
+  }
+ },
+ "390967749838635009": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529146751081,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "443826223374925824": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529146759155,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "205052390259294210": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529146770511,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "208201134626701312": {
+  "money": 10,
+  "xp": 4,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529186333828,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "260850575938158602": {
+  "money": 40,
+  "xp": 21,
+  "level": 5,
+  "next": 60,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529426381591,
+  "lastReward": 1529422464084,
+  "tempRole": {}
+ },
+ "451543414811656233": {
+  "money": 10,
+  "xp": 93,
+  "level": 12,
+  "next": 130,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529370592873,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "282510528075661312": {
+  "money": 10,
+  "xp": 0,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529184416418,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "327144064371916810": {
+  "money": 10,
+  "xp": 0,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529253466572,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "290161039830679552": {
+  "money": 10,
+  "xp": 0,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 0,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "209377962074570752": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529152974850,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "185089610299342860": {
+  "money": 10,
+  "xp": 5,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529331207834,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "304211750780141568": {
+  "money": 10,
+  "xp": 2,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529404365333,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "248846160880467968": {
+  "money": 10,
+  "xp": 24,
+  "level": 4,
+  "next": 50,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529429835838,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "286570803489669120": {
+  "money": 0,
+  "xp": 48,
+  "level": 4,
+  "next": 50,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "AsciiDoc\nblblblblblblblblbl",
+  "lastMessage": 1529419585955,
+  "lastReward": 1529418847397,
+  "tempRole": {
+   "U-Tipeur": 1529238732050
+  }
+ },
+ "347386717398892544": {
+  "money": 10,
+  "xp": 21,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529415769434,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "226479482695843840": {
+  "money": 10,
+  "xp": 8,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529160083079,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "427228016339582977": {
+  "money": 10,
+  "xp": 26,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529340920352,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "451993834180706315": {
+  "money": 10,
+  "xp": 5,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529359765120,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "310676902933430273": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529160493669,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "345224655512272909": {
+  "money": 10,
+  "xp": 9,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529407890955,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "452181072545972237": {
+  "money": 10,
+  "xp": 6,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529164180405,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "376135090281119744": {
+  "money": 10,
+  "xp": 0,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 0,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "277856834336063489": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529166063180,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "311239255915495444": {
+  "money": 10,
+  "xp": 0,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 0,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "227140745864151040": {
+  "money": 10,
+  "xp": 1,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529363753395,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "382417560479727621": {
+  "money": 10,
+  "xp": 10,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529169681466,
+  "lastReward": 0,
+  "tempRole": {
+   "U-Tipeur": 1529169662303
+  }
+ },
+ "276680909804011520": {
+  "money": 10,
+  "xp": 2,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529341112526,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "94486355526033408": {
+  "money": 10,
+  "xp": 0,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 0,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "219070055298629632": {
+  "money": 10,
+  "xp": 28,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529413449318,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "246633452311543809": {
+  "money": 10,
+  "xp": 4,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529237344781,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "352136619559616513": {
+  "money": 10,
+  "xp": 4,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529173086988,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "151082322748375040": {
+  "money": 10,
+  "xp": 3,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529173433620,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "391571582163615745": {
+  "money": 10,
+  "xp": 13,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529271709938,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "339787022741012483": {
+  "money": 10,
+  "xp": 4,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529184613404,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "448224223740297216": {
+  "money": 10,
+  "xp": 4,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529182956950,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "160877076658782210": {
+  "money": 10,
+  "xp": 28,
+  "level": 6,
+  "next": 70,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529404748508,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "311848671962595328": {
+  "money": 10,
+  "xp": 36,
+  "level": 4,
+  "next": 50,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529370629064,
+  "lastReward": 0,
+  "tempRole": {
+   "U-Tipeur": 1529362248981
+  }
+ },
+ "399257060472258561": {
+  "money": 10,
+  "xp": 27,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529411600140,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "416976878969028624": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529182847267,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "332220090764230656": {
+  "money": 10,
+  "xp": 6,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529183511089,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "243058781364158465": {
+  "money": 10,
+  "xp": 7,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529429616759,
+  "lastReward": 0,
+  "tempRole": {
+   "U-Tipeur": 1529318011764
+  }
+ },
+ "281446622078959616": {
+  "money": 10,
+  "xp": 0,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 0,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "276811368261353472": {
+  "money": 10,
+  "xp": 4,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529303833582,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "371727859800080395": {
+  "money": 10,
+  "xp": 7,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529183025471,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "210688573068935168": {
+  "money": 10,
+  "xp": 19,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529184287508,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "331906312042709014": {
+  "money": 10,
+  "xp": 3,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529183294783,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "354167014857637888": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529183476142,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "260425481680191493": {
+  "money": 0,
+  "xp": 7,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529184226605,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "426049115030421504": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529184262295,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "401901887777013761": {
+  "money": 10,
+  "xp": 9,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529186101428,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "416468638543904779": {
+  "money": 10,
+  "xp": 4,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529186137471,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "347562946463006730": {
+  "money": 16,
+  "xp": 6,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529189093616,
+  "lastReward": 1529189057763,
+  "tempRole": {}
+ },
+ "438297173390655498": {
+  "money": 10,
+  "xp": 6,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529190412284,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "321452648878440448": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529236135195,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "399959174257311754": {
+  "money": 10,
+  "xp": 0,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 0,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "267383359972442114": {
+  "money": 10,
+  "xp": 12,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529342544782,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "343772084062781440": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529239558906,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "229486727868317696": {
+  "money": 10,
+  "xp": 5,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529426553504,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "260406958912176128": {
+  "money": 10,
+  "xp": 6,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529244947076,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "204249921602322432": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529250034750,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "349879641110085632": {
+  "money": 10,
+  "xp": 8,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529251249640,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "219100797894524928": {
+  "money": 10,
+  "xp": 3,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529339611827,
+  "lastReward": 0,
+  "tempRole": {
+   "U-Tipeur": 1529257051122
+  }
+ },
+ "179650847032999936": {
+  "money": 10,
+  "xp": 5,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529263528222,
+  "lastReward": 0,
+  "tempRole": {
+   "U-Tipeur": 1529257061736
+  }
+ },
+ "224286479537405954": {
+  "money": 10,
   "xp": 0,
   "level": 0,
   "next": 10,
@@ -49,9 +2213,1219 @@
   "lastMessage": 0,
   "lastReward": 0,
   "tempRole": {
-   "Fire": 1528375319803,
-   "Ice": 1528375323082
+   "U-Tipeur": 1529257329887
   }
+ },
+ "409663445785640960": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529264739049,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "372407824006774786": {
+  "money": 10,
+  "xp": 13,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529321593288,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "433054019464855552": {
+  "money": 25,
+  "xp": 5,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529353892089,
+  "lastReward": 1529273858585,
+  "tempRole": {}
+ },
+ "436977112201560074": {
+  "money": 10,
+  "xp": 10,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529266398009,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "373906916734140446": {
+  "money": 10,
+  "xp": 4,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529262850403,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "219186591917277184": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529262840159,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "265976277356380162": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529263163604,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "310537354823729164": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529263562273,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "329251130548944907": {
+  "money": 10,
+  "xp": 3,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529303006954,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "415175613389996032": {
+  "money": 10,
+  "xp": 9,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529344740765,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "253199471985295361": {
+  "money": 10,
+  "xp": 0,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 0,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "452605418510745620": {
+  "money": 10,
+  "xp": 5,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529266844652,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "240856039535280128": {
+  "money": 10,
+  "xp": 13,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529267097179,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "380416713386098688": {
+  "money": 10,
+  "xp": 4,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529266563828,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "212943374020247553": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529266845859,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "313998074030718979": {
+  "money": 10,
+  "xp": 6,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529267256326,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "271691993195872256": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529267419147,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "253927014770147328": {
+  "money": 10,
+  "xp": 19,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529343388226,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "263702797214679046": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529269151744,
+  "lastReward": 0,
+  "tempRole": {
+   "U-Tipeur": 1529269155276
+  }
+ },
+ "377784076213551104": {
+  "money": 10,
+  "xp": 30,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529351909907,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "446395566805483540": {
+  "money": 10,
+  "xp": 21,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529353616914,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "415312180842463244": {
+  "money": 10,
+  "xp": 7,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529292319311,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "217302291655557121": {
+  "money": 10,
+  "xp": 18,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529295499945,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "321057772118605825": {
+  "money": 10,
+  "xp": 0,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529372324761,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "218397619955826688": {
+  "money": 10,
+  "xp": 4,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529309727860,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "368484455968669707": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529310111295,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "233275736775983114": {
+  "money": 10,
+  "xp": 19,
+  "level": 5,
+  "next": 60,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529421896011,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "314025436927623171": {
+  "money": 10,
+  "xp": 19,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529321191253,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "453290783416647682": {
+  "money": 10,
+  "xp": 18,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529316012425,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "293039017107259392": {
+  "money": 10,
+  "xp": 0,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 0,
+  "lastReward": 0,
+  "tempRole": {
+   "U-Tipeur": 1529320669861
+  }
+ },
+ "375396258896019456": {
+  "money": 0,
+  "xp": 9,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529354014016,
+  "lastReward": 1529326205856,
+  "tempRole": {}
+ },
+ "390976446773985281": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529326890234,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "213959946147069952": {
+  "money": 10,
+  "xp": 3,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529327865154,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "317280483090235392": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529332253101,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "328548382882922497": {
+  "money": 10,
+  "xp": 1,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529331976578,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "425068938632757250": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529331825838,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "431869866094624769": {
+  "money": 10,
+  "xp": 3,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529332894191,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "457998159709339658": {
+  "money": 0,
+  "xp": 25,
+  "level": 5,
+  "next": 60,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529419572380,
+  "lastReward": 1529418926391,
+  "tempRole": {
+   "U-Tipeur": 1529352446005
+  }
+ },
+ "209871236652597248": {
+  "money": 10,
+  "xp": 4,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529333454274,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "414333921212497931": {
+  "money": 10,
+  "xp": 14,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529430191305,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "362588468917960706": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529339252431,
+  "lastReward": 0,
+  "tempRole": {
+   "U-Tipeur": 1529341406709
+  }
+ },
+ "296689200131080194": {
+  "money": 10,
+  "xp": 2,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529339614997,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "202383880907390976": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529339574833,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "256383642870218752": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529340161565,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "439119189865660416": {
+  "money": 17,
+  "xp": 4,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529340208373,
+  "lastReward": 1529340188356,
+  "tempRole": {}
+ },
+ "412173322256646144": {
+  "money": 10,
+  "xp": 0,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 0,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "319536261029429259": {
+  "money": 10,
+  "xp": 4,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529343130768,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "372847265255129109": {
+  "money": 10,
+  "xp": 8,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529343013921,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "409091614414209054": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529344118643,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "257584292698259458": {
+  "money": 10,
+  "xp": 4,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529344427073,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "454770352158146560": {
+  "money": 15,
+  "xp": 29,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529358395618,
+  "lastReward": 1529347679762,
+  "tempRole": {}
+ },
+ "285053858357575680": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529346429252,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "372062759111884810": {
+  "money": 4,
+  "xp": 20,
+  "level": 3,
+  "next": 40,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529419137449,
+  "lastReward": 1529418860431,
+  "tempRole": {
+   "U-Tipeur": 1529349164557
+  }
+ },
+ "428857999164178432": {
+  "money": 10,
+  "xp": 1,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529350308979,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "416641943926341634": {
+  "money": 10,
+  "xp": 3,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529350799671,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "243022458158841856": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529351963826,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "439436484395794453": {
+  "money": 11,
+  "xp": 18,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529353938614,
+  "lastReward": 1529353708374,
+  "tempRole": {}
+ },
+ "181390429621583872": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529353148668,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "394293312900694026": {
+  "money": 10,
+  "xp": 9,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529358418512,
+  "lastReward": 1529357941561,
+  "tempRole": {}
+ },
+ "213369376232046592": {
+  "money": 10,
+  "xp": 0,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 0,
+  "lastReward": 0,
+  "tempRole": {
+   "U-Tipeur": 1529357566932
+  }
+ },
+ "426459411448594441": {
+  "money": 10,
+  "xp": 3,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529359975734,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "349950182042894336": {
+  "money": 10,
+  "xp": 10,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529363745678,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "277539081347530762": {
+  "money": 10,
+  "xp": 0,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 0,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "346642269354328077": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529363641033,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "413327658290511894": {
+  "money": 10,
+  "xp": 16,
+  "level": 2,
+  "next": 30,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529364258294,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "382619544788926469": {
+  "money": 10,
+  "xp": 16,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529370704060,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "302890229918859265": {
+  "money": 10,
+  "xp": 4,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529400514563,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "265441452291522560": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529401068939,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "398060252370698241": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529401639988,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "361615184386588682": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529405594511,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "269217022309564416": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529406712031,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "392726680512364556": {
+  "money": 10,
+  "xp": 3,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529409970382,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "307223373119750145": {
+  "money": 10,
+  "xp": 1,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529413812777,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "207481155711139840": {
+  "money": 10,
+  "xp": 4,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529416743064,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "429682094634041344": {
+  "money": 10,
+  "xp": 2,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529421698697,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "335796361746186241": {
+  "money": 10,
+  "xp": 3,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529422115072,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "255387115964203027": {
+  "money": 10,
+  "xp": 6,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529426367492,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "418686588629811201": {
+  "money": 40,
+  "xp": 13,
+  "level": 1,
+  "next": 20,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529428392656,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "448120886223175681": {
+  "money": 10,
+  "xp": 5,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529429835200,
+  "lastReward": 0,
+  "tempRole": {}
+ },
+ "458679806373134347": {
+  "money": 10,
+  "xp": 8,
+  "level": 0,
+  "next": 10,
+  "inventory": {
+   "roles": [],
+   "commandes": [],
+   "misc": []
+  },
+  "description": "steamou profile edit (your text here)",
+  "lastMessage": 1529429657408,
+  "lastReward": 0,
+  "tempRole": {}
  }
-}}
 }

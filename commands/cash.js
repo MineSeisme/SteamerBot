@@ -6,7 +6,7 @@ const fs = require('fs');
 module.exports.run = async (bot, message, args) => {
 
 
-    let rMember =  message.guild.member(message.mentions.users.first()) || message.author;
+    let rMember =  message.mentions.users.first()|| message.author;
     
     if(args[0]) args[0] = args[0].toLowerCase();
 

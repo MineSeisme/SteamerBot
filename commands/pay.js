@@ -21,13 +21,6 @@ module.exports.run = async (bot, message, args) => {
 
     let rMember = message.author;
 
-    if(!profile[rMember.id]){
-        profile[rMember.id] = ProfilePreset;
-        fs.writeFile("./profiles/profileData.json", JSON.stringify(profile, null, 1), (err) =>{
-           if (err) console.log(err);
-        })
-    };
-
     var last = profile[rMember.id].lastReward;
     var delay = config.payDelay * 60000;
     var timeMsg = message.createdTimestamp;
@@ -46,7 +39,7 @@ module.exports.run = async (bot, message, args) => {
                 tempRole:profile[rMember.id].tempRole
              }
      
-             fs.writeFile("./profiles/profileData.json", JSON.stringify(profile), (err) =>{
+             fs.writeFile("./profiles/profileData.json", JSON.stringify(profile, null, 1), (err) =>{
                 if (err) console.log(err);
              })
 

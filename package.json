@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/Pixelisator/botZero#readme",
   "dependencies": {
-    "discord.js": "^11.3.2",
     "fs": "^0.0.2",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "discord.js": "^11.3.2"
   },
   "devDependencies": {},
   "keywords": [

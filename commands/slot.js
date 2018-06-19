@@ -10,23 +10,6 @@ module.exports.run = async (bot, message, args) => {
 
     let rMember = message.author;
 
-    if(!profile[rMember.id]){
-
-        profile[rMember.id] = {
-            money: config.startMoney,
-            xp: 0,
-            level: 0,
-            next: 10,
-            inventory:{roles:[],commandes:[],misc:[]},
-            description: `${config.prefix} profile edit (your text here)`,
-            lastMessage: 0,
-            lastReward: 0,
-            tempRole: {}
-        };    
-
-    };
-    
-
         var Array1 = [0,0,0];
         var displayArray = [0,0,0];
         var slotItems = config.slotEmojis
@@ -37,7 +20,6 @@ module.exports.run = async (bot, message, args) => {
             return item;
         };
     
-
     
         var money = args[0]; 
     
@@ -80,16 +62,14 @@ module.exports.run = async (bot, message, args) => {
 
      profile[rMember.id].money = profile[rMember.id].money + moneyWon;
 
-     fs.writeFile("./profiles/profileData.json", JSON.stringify(profile, null, 1), (err) =>{
-        if (err) console.log(err);
-     });
 
      var slot = new Discord.RichEmbed()
      .addField( "Slot machine:", "\n \n" + displayArray[0] + "\n \n" + displayArray[1] + "\n \n" + displayArray[2]);
      
         if(factor === 0){
-        slot.setColor('0xff0000');
-             slot.addField("Tu as perdu:", money + config.currency);
+            slot.setColor('0xff0000');
+            profile[config.botUserId].money = profile[config.botUserId].money + Math.round(money * 1);
+            slot.addField("Tu as perdu:", money + config.currency);
         }else if(factor === 1) {
             slot.setColor('0x00ff00');
             slot.addField("Tu as gagné:", `Rien, absolument rien! ${config.bonusEmoji}`);
@@ -102,6 +82,10 @@ module.exports.run = async (bot, message, args) => {
         console.log("slot" + moneyWon );
       }
 
+       fs.writeFile("./profiles/profileData.json", JSON.stringify(profile, null, 1), (err) =>{
+        if (err) console.log(err);
+     });
+  
 }
 
 module.exports.help = {
