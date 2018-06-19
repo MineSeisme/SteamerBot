@@ -8,7 +8,9 @@ const commandeBuy = require('../shopCategory/commandeBuy.js');
 const miscBuy = require('../shopCategory/miscBuy.js');
 
 module.exports.run = async (bot, message, args) => {
-/*
+  
+    return;
+
     let rMember = message.author;
     let shopDisp = {"head":``,"disp":``};
     let itemsLength = 0;
@@ -184,8 +186,7 @@ module.exports.run = async (bot, message, args) => {
         shopEmbed.addField(shopDisp.head,shopDisp.disp);
     }
     message.channel.send(shopEmbed);
-*/
-  message.channel.send("Le magasin est fermé pour le moment!");
+  
 }
 
 module.exports.help = {

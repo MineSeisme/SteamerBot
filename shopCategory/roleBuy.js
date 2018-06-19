@@ -26,7 +26,7 @@ module.exports.run = (message, item) => {
     });
 
     if( item.props.temp == true && duration != -1) message.channel.send(`tu viens d'obtenir le role ${item.props.role} pour ${duration} heures!`);
-    else message.channel.send(`tu viens d'obtenir le role ${item.props.role}!`);
+    else message.channel.send(`tu viens d'obtenir le role ${item.props.role} pour!`);
 
 
     let oldCash = profile[rMember.id].money;

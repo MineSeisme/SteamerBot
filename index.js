@@ -42,12 +42,13 @@ console.log(config.botUserId);
                 lastReward: 0,
                 tempRole:{}
             };
-          
-        };
-    
-        fs.writeFile("./profiles/profileData.json", JSON.stringify(profile, null, 1), (err) =>{
+   
+            fs.writeFile("./profiles/profileData.json", JSON.stringify(profile, null, 1), (err) =>{
             if (err) console.log(err);
          })
+        };
+    
+
 
 fs.readdir("./commands", (err, files) => {
 
@@ -91,12 +92,12 @@ fs.readdir("./color_Roles", (err, files) => {
     });
     console.log('\n');
 });
-
+/*
 bot.on("ready", async () => {
     console.log(`${bot.user.username} activé sur ${bot.guilds.size} serveur!`);
     bot.user.setActivity(`${prefix}_help`, { type: "PLAYING" });
 });
-33
+
 
 bot.on("guildMemberAdd", member => {
   
@@ -135,7 +136,7 @@ bot.on("guildBanAdd", (guild, user) =>{
 
     if(guild.channels.find('name',config.banLog)){
         let embed = new Discord.RichEmbed()
-        .setDescription(`:asterisk: ${user.tag}s'est fait ban!`)
+        .setDescription(`:asterisk: ${user.tag} s'est fait ban!`)
         .setColor('#f01414');
         guild.channels.find('name',config.banLog).send(embed);
     };
@@ -147,6 +148,19 @@ bot.on("guildMemberUpdate", (oldMember, newMember) => {
     config.tempRoles.forEach((i) =>{
 
         if(!(!oldMember.roles.find(`name`, i.name) && newMember.roles.find(`name`, i.name)) )return;
+      
+      if(i.name = config.warnRole){
+        
+        let expireDate = new Date;
+        let now = new Date(Date.now());
+        console.log(now);
+        expireDate.setTime(now.getTime() + (3600000 * i.duration));
+        console.log(expireDate);
+        let embed = new Discord.RichEmbed()
+        .setDescription(`:grey_exclamation: ${newMember.user.tag} s'est pris le role ${config.warnRole}!\n Il gardera ce role jusqu'au ${expireDate.getDate()}/${expireDate.getMonth()}/${expireDate.getFullYear()}`)
+        .setColor('#ffffff');
+        newMember.guild.channels.find(`name`, config.warnLog).send(embed);
+      };
         
       console.log(`creation d'un profil pour ${newMember.user.username} avec l'id ${newMember.user.id}`);
       
@@ -180,6 +194,7 @@ bot.on("guildMemberUpdate", (oldMember, newMember) => {
 
 bot.on("message", async message => {
 
+  
     if (message.author.bot) return;
     if (message.channel.type === "dm") return;
 
@@ -278,11 +293,22 @@ bot.on("message", async message => {
       
       if(!profile[member.user.id]) return;
       if(!profile[member.user.id].tempRole[tmpRole.name]) return;
-      if(message.createdTimestamp - profile[member.user.id].tempRole[tmpRole.name] >= 3600000 * tmpRole.duration) member.removeRole(message.guild.roles.find('name',tmpRole.name));
-    
+      
+      let tDuration = tmpRole.duration
+      
+      if(tmpRole.hasOwnProperty("altDuration")) tDuration = tmpRole.duration * !profile[member.user.id].includes(tmpRole.name) + tmpRole.altDuration * profile[member.user.id].includes(tmpRole.name);
+      
+      if(message.createdTimestamp - profile[member.user.id].tempRole[tmpRole.name] >= 3600000 * tDuration){
+        member.removeRole(message.guild.roles.find('name',tmpRole.name));
+        
+        if(tmpRole.hasOwnProperty("altDuration")){
+          profile[member.user.id].inventory.splice(profile[member.user.id].inventory.indexOf(tmpRole.name),1);
+        }
+      };
+            
     });
   });
    
 })
-
+*/
 bot.login(process.env.TOKEN);
